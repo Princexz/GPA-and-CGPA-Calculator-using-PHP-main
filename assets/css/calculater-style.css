@@ -1,0 +1,252 @@
+
+/* cgpa to % */
+
+@media (min-width: 600px) and (max-width: 900px) {
+
+    .nav-link{
+        font-size: 15px !important;
+    }
+    .tab-title{
+        font-size: 34px !important;
+    }
+    .tab-btn{
+        padding: 12px !important;    }
+}
+  
+.cgpa_calculator {
+    background: #f0e6fb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width:100%;
+    width: 100%;
+}
+.cgpa_calculator input[type="text"], 
+.cgpa_calculator select,
+.cgpa_calculator button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.cgpa_calculator button {
+    background-color: #7a21da;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cgpa_result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+/* %tocgpa */
+.percentage_calculator {
+    background: #f0e6fb;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+}
+.percentage_calculator input[type="text"], 
+.percentage_calculator select,
+.percentage_calculator button {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.percentage_calculator button {
+    background-color: #7a21da;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.percentage_result {
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+/* gpa */
+
+.gpa-container {
+    background-color: #7a21da1c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    text-align: center;
+}
+.gpa-header {
+    margin-bottom: 20px;
+    
+}
+.gpa-subject {
+    margin-bottom: 20px;
+}
+.gpa-subject h2 {
+    text-align: left !important;
+    font-size: 20px !important;
+}
+.gpa-subject input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+.gpa-grade-credit {
+    display: flex;
+    justify-content: space-between;
+}
+.gpa-grade-credit input {
+    width: 48%;
+}
+.gpa-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.gpa-buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+}
+.gpa-buttons button:nth-child(1) {
+    background-color: #7a21da;
+}
+.gpa-buttons button:nth-child(2) {
+    background-color: #f74d4d;
+}
+.gpa-result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.gpa-submit-button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 11px 0;
+    background: #7a21da;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+/* cgpa */
+.cal-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px 0px;
+    
+}
+
+.container_cal {
+    
+    background-color: #7a21da1c;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* width: 800px !important; */
+    width: 100%;
+    text-align: center;
+}
+
+.h1 {
+    margin-bottom: 20px;
+    display: none;
+}
+
+.semester {
+    margin-bottom: 20px;
+}
+ .semester h2 {
+    text-align: left !important;
+    font-size: 20px !important;
+}
+.semester input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color:white;
+}
+ .buttons button:nth-child(1) {
+    background-color:    #7a21da;
+}
+
+.buttons button:nth-child(2) {
+    background-color: #f74d4d;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+#cgpaForm{
+    padding-right: 7px;
+}
+#submit_button{
+display: flex;
+width: 100%;
+justify-content: center;
+padding: 11px 0px;
+background:#7a21da;
+color:white;
+border-radius:4px ;
+border:none;
+cursor: pointer;
+}
+/* For most modern browsers */
+::placeholder {
+    color: black;
+}
+
+/* For Internet Explorer 10+ */
+::-ms-input-placeholder {
+    color: black;
+}
+
+/* For Firefox 18- */
+:-moz-placeholder {
+    color: black;
+}
+
+/* For Firefox 19+ */
+::-moz-placeholder {
+    color: black;
+}
+
+/* For older WebKit browsers (Safari, Chrome) */
+:-webkit-input-placeholder {
+    color: black;
+}
+
+/* For newer WebKit browsers (Safari, Chrome) */
+::-webkit-input-placeholder {
+    color: black;
+}

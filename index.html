@@ -1,0 +1,451 @@
+<!--
+******************************************************
+******************************************************
+
+          ╔═══╗╔═══╗╔════╗╔═══╗╔════╗╔═══╗
+          ║ ╔═╝║ ╔═╗ ║ ║ ╔═╗ ║ ╔═══╝ ║ ╔═╝
+          ║ ╚═╗║ ╚═╝ ║ ║ ╚═╝ ║ ╚══╗  ║ ╚═╗
+          ║ ╔═╝║ ╔═══╝ ║ ╔═══╝ ╔══╝  ║ ╔═╝
+          ║ ║  ║ ╚═══╗ ║ ║   ║ ║     ║ ╚═╗
+          ╚═╝  ╚═════╝ ╚═╝  ╚════╝   ╚═══╝
+
+***********  Developed & Designed By    **************
+***********       Prince Solomon             ************
+***********  Prince_Solomon@yahoo.com   ************
+***********   WhatsApp / Call: +234 9078510286  ******
+***********   http://linktr.ee/princexz    *********
+
+           
+
+******************************************************
+******************************************************
+-->
+
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en-US" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- ===============================================--><!--    Document Title--><!-- ===============================================-->
+    <title>CGPA & GPA Universal Calculator</title>
+
+    <!-- ===============================================--><!--    Favicons--><!-- ===============================================-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicons/favicon.ico">
+    <link rel="manifest" href="assets/img/favicons/manifest.json">
+    <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png">
+    <meta name="theme-color" content="#ffffff">
+    <!--  -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+
+    <!-- ===============================================--><!--    Stylesheets--><!-- ===============================================-->
+    <link rel="stylesheet" href="vendors/swiper/swiper-bundle.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&amp;family=Rubik:ital,wght@0,300..900;1,300..900family=Rubik:ital,wght@0,300..900;1,300..900&amp;display=swap" rel="stylesheet">
+    <link href="assets/css/theme.min.css" rel="stylesheet" id="style-default">
+    <link href="assets/css/user-rtl.min.css" rel="stylesheet" id="user-style-rtl">
+    <link href="assets/css/user.min.css" rel="stylesheet" id="user-style-default">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="assets/css/calculater-style.css">
+  </head>
+
+  <body >
+    <!-- ===============================================--><!--    Main Content--><!-- ===============================================-->
+    <main class="main" id="top">
+      <div class="content">
+        <nav class="navbar navbar-expand-md fixed-top" id="navbar" data-navbar-soft-on-scroll="data-navbar-soft-on-scroll">
+          <div class="container-fluid px-0"><a href="/"><img class="navbar-brand w-75 d-md-none" src="assets/img/logos/logo.svg" alt="logo" /></a><a class="navbar-brand fw-bold d-none d-md-block" href="/">GradeGenie.net</a><a class="btn btn-primary btn-sm ms-md-x1 mt-lg-0 order-md-1 ms-auto tab-btn" href="#">Get Started Now </a><button class="navbar-toggler border-0 pe-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content" aria-controls="navbar-content" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse justify-content-md-end" id="navbar-content" data-navbar-collapse="data-navbar-collapse">
+              <ul class="navbar-nav gap-md-2 gap-lg-3 pt-x1 pb-1 pt-md-0 pb-md-0" data-navbar-nav="data-navbar-nav">
+                <li class="nav-item"> <a class="nav-link lh-xl" href="#home">Home</a></li>
+                <li class="nav-item"> <a class="nav-link lh-xl" href="#calculator">Calculater</a></li>
+                <li class="nav-item"> <a class="nav-link lh-xl" href="#about">About us</a></li>
+                <li class="nav-item"> <a class="nav-link lh-xl" href="#support">Support</a></li>
+                <li class="nav-item"> <a class="nav-link lh-xl" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div data-bs-target="#navbar" data-bs-spy="scroll" tabindex="0">
+          <section class="hero-section overflow-hidden position-relative z-0 mb-4 mb-lg-0" id="home">
+            <div class="hero-background">
+              <div class="container">
+                <div class="row gy-4 gy-md-8 pt-9 pt-lg-0">
+                  <div class="col-lg-6 text-center text-lg-start">
+                    <h1 class="fs-2 fs-lg-1 text-white fw-bold mb-2 mb-lg-x1 lh-base mt-3 mt-lg-0 tab-title">Universal CGPA Calculator <span class="text-nowrap"> </span></h1>
+                    <p class="fs-8 text-white mb-3 mb-lg-4 lh-lg">Streamline your GPA tracking with our Universal CGPA Calculator. Simplify your academic journey across all universities with precision and ease.</p>
+                    <div class="d-flex justify-content-center justify-content-lg-start"><a class="btn btn-primary btn-lg lh-xl mb-4 mb-md-5 mb-lg-7" href="#!">Explore more</a></div>
+                   
+             
+                  </div>
+                  <div class="col-lg-6 position-lg-relative">
+                    <div class="position-lg-absolute z-1 text-center"><img class="img-fluid chat-image" src="assets/img/Hero/Frame.png" alt="" />
+                      <div class="position-absolute dots d-none d-md-block"> <img class="img-fluid w-50 w-lg-75" src="assets/img/illustrations/Dots.webp" alt="" /></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-absolute bottom-0 start-0 end-0 z-1"><img class="wave mb-md-n2" src="assets/img/illustrations/Wave.svg" alt="" />
+              <div class="bg-white py-2 py-md-5"></div>
+            </div>
+          </section>
+
+
+          <section class="mb-8" id="calculator" >
+            <div class="container">
+            <div class="row align-items-center">
+              <!-- gpa -->
+              <div class="col-md-12">
+                <div class="gpa-section">
+                    <div class="gpa-container">
+                        <h4 class="gpa-header">GPA Calculator</h4>
+                        <div class="gpa-buttons">
+                            <button type="button" onclick="addSubject()">Add Subject</button>
+                            <button type="button" onclick="deleteSubject()">Delete Subject</button>
+                        </div>
+                        <form id="gpaForm">
+                            <div id="gpaSubjects">
+                                <div class="gpa-subject">
+                                    <h2>1st Subject</h2>
+                                    <input type="text" placeholder="Enter Subject Name" name="subject[]" required>
+                                    <div class="gpa-grade-credit">
+                                        <input type="number" step="0.01" placeholder="Enter Grade in Points"
+                                            name="grade[]" required>
+                                        <input type="number" step="0.01" placeholder="Enter Credit Hours"
+                                            name="credit[]" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="submit" class="gpa-submit-button">Calculate GPA</button>
+                        </form>
+                        <div id="gpaResult" class="gpa-result"></div>
+                    </div>
+                </div>
+            </div>
+                <div class="col-md-12">
+                  <div class="cal-section">
+                      <div class="container_cal">
+                          <h4>CGPA Calculator</h4>
+                          <div class="buttons">
+                              <button type="button" onclick="addSemester()">Add Semester</button>
+                              <button type="button" onclick="deleteSemester()">Delete Semester</button>
+                          </div>
+                          <form id="cgpaForm">
+                              <div id="semesters">
+                                  <div class="semester">
+                                      <h2 >1st Semester</h2>
+                                      <input type="number" step="0.01" placeholder="Enter GPA"required name="gpa[]" class="gpa">
+                                  </div>
+                              </div>
+                              
+                              <button type="submit" id='submit_button'>Calculate CGPA</button>
+                          </form>
+                          <div id="result"></div>
+                      </div>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="cgpa_calculator mb-2">
+                    <h5>CGPA To Percentage Converter</h5>
+                    <form id="cgpa_form">
+                        <input type="text" id="cgpa_input_new" placeholder="Enter your CGPA" name="cgpa">
+                        <select id="cgpa_formula_new" name="formula">
+                            <option value="0.714">Mumbai University</option>
+                            <option value="9.5">CGPA out of 9.5</option>
+                            <option value="25">CGPA out of 4</option>
+                            <!-- Add other conversion options here -->
+                        </select>
+                        <button type="submit">Submit</button>
+                    </form>
+                    <div class="cgpa_result" id="cgpa_result_new"></div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-2">
+              <div class="percentage_calculator">
+                <h5>Percentage To CGPA Converter</h5>
+                <form id="percentage_form">
+                    <input type="text" id="percentage_input_new" placeholder="Enter your Percentage" name="percentage">
+                    <select id="percentage_formula_new" name="formula">
+                      <option value="0.714">Mumbai University</option>
+                        <option value="9.5">Out of 9.5</option>
+                        <option value="25">Out of 4</option>
+                       
+                        <!-- Add other conversion options here -->
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+                <div class="percentage_result" id="percentage_result_new"></div>
+            </div>
+          </div>
+            
+            </div>
+            <!-- cgpt to% -->
+            <script>
+          
+          </script>
+</body>
+          </div>
+          </section>
+       
+          <section class="container mb-8 mb-lg-13" id="about">
+            <div class="row align-items-center">
+              <div class="col-12 col-lg-6 col-xl-5 order-lg-1"><img class="img-fluid" src="assets/img/Hero/Collaborator.webp" alt="" /></div>
+              <div class="col-12 col-lg-6 col-xl-7">
+                <div class="row justify-content-center justify-content-lg-start">
+                  <div class="col-sm-10 col-md-8 col-lg-11">
+                    <h2 class="fs-4 fs-lg-3 fw-bold mb-2 text-center text-lg-start"> Welcome to the CGPA Calculator</h2>
+                    <p class="fs-8 mb-4 mb-lg-2 lh-lg text-center text-lg-start fw-normal">Are you a student looking to calculate your Cumulative Grade Point Average (CGPA) effortlessly? <br> Look no further! Our online CGPA Calculator is designed to provide you with quick and accurate results, saving your time and effort.</p>
+                  </div>
+                  <div class="col-12">
+                    <div>
+                      <h5 class="fs-8 fw-bold lh-lg mb-1"> Calculate Your CGPA in a Few Simple Steps</h5>
+                      <p class="fs-8 mb-4 mb-lg-2 lh-lg text-center text-lg-start fw-normal">You have the flexibility to choose specific semesters for which you want to calculate your CGPA. Whether you're in the middle of your academic career or have completed all semesters, our online tool empowers you to assess your performance with ease.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="bg-1100" id="support">
+            <div class="container">
+              <div class="row py-8 py-md-10 py-lg-11">
+                <div class="col-lg-6">
+                  <div class="row justify-content-center justify-content-lg-start">
+                    <div class="col-md-8 col-lg-12 col-xl-11">
+                      <h2 class="text-white fs-4 fs-lg-4 lh-sm mb-2 text-center text-lg-start fw-bold">For all the Institutions around the world.</h2>
+                      <p class="fs-8 text-white text-opacity-65 mb-4 mb-md-6 mb-lg-7 lh-lg mb-6 mb-lg-7 text-center text-lg-start">Our CGPA Calculator allows you to effortlessly convert your GPA to CGPA or SGPA to CGPA. The only thing you need is your GPA for each semester for which you want to calculate your CGPA.</p>
+                    </div>
+                    <div class="col-lg-10">
+                      <div class="d-flex gap-2 gap-lg-x1 mb-4 mb-lg-5">
+                        <div>
+                          <div class="check-icon bg-success mb-1 rounded-circle d-flex align-items-center justify-content-center"> <span class="uil uil-check text-white"></span></div>
+                        </div>
+                        <div>
+                          <h5 class="fs-8 fw-bold lh-lg mb-1 text-white">Calculate CGPA from GPA</h5>
+                          <p class="lh-xl text-white text-opacity-70 mb-0">Our CGPA Calculator allows you to effortlessly convert your GPA to CGPA or SGPA to CGPA.</p>
+                        </div>
+                      </div>
+                      <div class="d-flex gap-2 gap-lg-x1 mb-4 mb-lg-5">
+                        <div>
+                          <div class="check-icon bg-success mb-1 rounded-circle d-flex align-items-center justify-content-center"> <span class="uil uil-check text-white"></span></div>
+                        </div>
+                        <div>
+                          <h5 class="fs-8 fw-bold lh-lg mb-1 text-white">Select specific semesters.</h5>
+                          <p class="lh-xl text-white text-opacity-70 mb-0">There's no restriction on how many semesters you can calculate with our CGPA calculator</p>
+                        </div>
+                      </div>
+                      <div class="d-flex gap-2 gap-lg-x1 mb-4 mb-lg-5">
+                        <div>
+                          <div class="check-icon bg-success mb-1 rounded-circle d-flex align-items-center justify-content-center"> <span class="uil uil-check text-white"></span></div>
+                        </div>
+                        <div>
+                          <h5 class="fs-8 fw-bold lh-lg mb-1 text-white">Calculate CGPA from Percentage</h5>
+                          <p class="lh-xl text-white text-opacity-70 mb-0">Transform your percentage into CGPA swiftly using our user-friendly CGPA Calculator.</p>
+                        </div>
+                      </div>
+
+                      <div class="d-flex gap-2 gap-lg-x1 mb-4 mb-lg-5">
+                        <div>
+                          <div class="check-icon bg-success mb-1 rounded-circle d-flex align-items-center justify-content-center"> <span class="uil uil-check text-white"></span></div>
+                        </div>
+                        <div>
+                          <h5 class="fs-8 fw-bold lh-lg mb-1 text-white">
+                            Calculate Percentage from CGPA</h5>
+                          <p class="lh-xl text-white text-opacity-70 mb-0">Easily convert your CGPA to percentage with our efficient Percentage Calculator.</p>
+                        </div>
+                      </div>
+
+                      
+
+                      
+                    </div>
+                  </div>
+                </div>
+               
+
+                <div class="col-lg-6">
+                  <div class="accordion mt-lg-4 ps-3 pe-x1 bg-white" id="accordion">
+                    
+                    <!-- GPA from Grade Points and Credit Hours -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading1">
+                        <button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1" data-accordion-button="data-accordion-button">
+                          How to calculate GPA?
+                        </button>
+                      </h2>
+                      <div class="accordion-collapse collapse show" id="collapse1" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">
+                          Multiply the grade points by credit hours for each course, sum them, and divide by total credit hours.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- GPA to CGPA Conversion -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading2">
+                        <button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2" data-accordion-button="data-accordion-button">
+                          How to convert GPA to CGPA?
+                        </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="collapse2" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">
+                          Add all GPA scores and divide by the number of semesters.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- CGPA to Percentage Conversion for 4.0 Scale -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading3">
+                        <button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3" data-accordion-button="data-accordion-button">
+                          Convert CGPA to Percentage (4.0 scale)?
+                        </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="collapse3" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">
+                          Multiply CGPA by 25.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- CGPA to Percentage Conversion for 9.5 Scale -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading4">
+                        <button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4" data-accordion-button="data-accordion-button">
+                          Convert CGPA to Percentage (9.5 scale)?
+                        </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="collapse4" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">
+                          Multiply CGPA by 10.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- CGPA to Percentage Conversion for Mumbai University -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading5">
+                        <button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5" data-accordion-button="data-accordion-button">
+                          Convert CGPA to Percentage (Mumbai University)?
+                        </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="collapse5" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">
+                          Use the formula: (CGPA - 0.75) * 10.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Percentage to CGPA Conversion for 4.0 Scale -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading6">
+                        <button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6" data-accordion-button="data-accordion-button">
+                          Convert Percentage to CGPA (4.0 scale)?
+                        </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="collapse6" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">
+                          Divide the percentage by 25.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Percentage to CGPA Conversion for 9.5 Scale -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading7">
+                        <button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7" data-accordion-button="data-accordion-button">
+                          Convert Percentage to CGPA (9.5 scale)?
+                        </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="collapse7" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">
+                          Divide the percentage by 10.
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Percentage to CGPA Conversion for Mumbai University -->
+                    <div class="accordion-item">
+                      <h2 class="accordion-header" id="heading8">
+                        <button class="accordion-button fs-8 lh-lg fw-bold pt-x1 pb-2 collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8" data-accordion-button="data-accordion-button">
+                          Convert Percentage to CGPA (Mumbai University)?
+                        </button>
+                      </h2>
+                      <div class="accordion-collapse collapse" id="collapse8" data-bs-parent="#accordion">
+                        <div class="accordion-body lh-xl pt-0 pb-x1">
+                          Use the formula: (Percentage / 10) + 0.75.
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+                
+                
+                
+              </div>
+            </div>
+          </section>
+          <section class="bg-300 position-relative z-0" id="contact">
+            <div class="container py-8 py-lg-9">
+              <div class="row justify-content-center">
+                <div class="col-md-8 col-lg-8">
+                  <div class="row justify-content-center">
+                    <div class="col-12 col-lg-10">
+                      <h2 class="fs-4 fs-lg-3 fw-bold text-center mb-2 lh-sm">Get latest updates</h2>
+                      <p class="fs-8 mb-5 mb-lg-6 text-center lh-lg fw-normal"> Subscribe to our monthly newsletter to stay connected with everything you need!</p>
+                    </div>
+                    <div class="col-10 col-lg-7">
+                      <form method="POST" onsubmit="return false;">
+                        <div class="mb-2 w-100"><input class="form-control email-input" id="email" type="email" placeholder="Enter your email" required="required" /></div>
+                        <div class="d-grid"><button class="btn btn-lg btn-primary lh-xl mb-x1" type="submit"> Subscribe </button></div>
+                      </form>
+                    </div>
+                    <div class="col-10 col-lg-7">
+                      <p class="text-center lh-lg mb-0">We’ll never share your details with third parties. View our Privacy Policy for more info.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="position-absolute bottom-0 end-0 z-n1 d-none d-lg-block"><img src="assets/img/illustrations/Green_dots.svg" alt="" /></div>
+            <div class="position-relative bottom-0 start-0 z-1"><img class="img-fluid w-100" src="assets/img/illustrations/Wave_3.svg" alt="" /></div>
+          </section>
+        </div><button class="btn scroll-to-top text-white rounded-circle d-flex justify-content-center align-items-center bg-primary" data-scroll-top="data-scroll-top"><span class="uil uil-angle-up"></span></button>
+        <footer class="">
+          <div class="container-fluid">
+            <div class="row gy-4">
+              <div class="col-lg-12 bg-dark py-2" style="text-align: center;color: white;">
+          <a href="https://cybrilltech.com/" style="color: white;"> Developed by CybrillTech Inc.</a>
+          </div>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </main><!-- ===============================================--><!--    End of Main Content--><!-- ===============================================-->
+
+
+
+    <!-- ===============================================--><!--    JavaScripts--><!-- ===============================================-->
+    <script src="vendors/popper/popper.min.js"></script>
+    <script src="assets/js/calculater.js"></script>
+    
+    <script src="vendors/bootstrap/bootstrap.min.js"></script>
+    <script src="vendors/is/is.min.js"></script>
+    <script src="vendors/countup/countUp.umd.js"></script>
+    <script src="vendors/swiper/swiper-bundle.min.js"></script>
+    <script src="vendors/lodash/lodash.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=window.scroll"></script>
+    <script src="assets/js/theme.js"></script>
+  </body>
+
+</html>
