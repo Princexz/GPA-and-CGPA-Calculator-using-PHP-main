@@ -1,5 +1,20 @@
 # GPA and CGPA Calculator
 
+
+<p align="center">	
+   <a href="https://www.linkedin.com/in/princexz">
+      <img alt="Prince Solomon" src="https://img.shields.io/badge/-princexz-1AD043?style=flat&logo=Linkedin&logoColor=white" />
+   </a>
+  <a href="https://github.com/princexz/Quiz-Application/blob/main/License">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/princexz/Quiz-Application?color=#1AD043" />
+  </a>
+  <img alt="Stars" src= "https://img.shields.io/github/stars/princexz/Quiz-Application?color=#1AD043" />
+  <img alt="Repo size" src="https://img.shields.io/github/repo-size/princexz/Quiz-Application?color=#1AD043" />
+<img alt= "Watchers" src="https://img.shields.io/github/watchers/princexz/Quiz-Application?color=#1AD043" />
+<img alt= "Last commit" src="https://img.shields.io/github/last-commit/princexz/Quiz-Application?color=#1AD043" />
+</p>
+
+
 This project is a web-based application developed using core PHP that offers various academic calculation tools for students. The application includes:
 
 - **GPA Calculator**: Calculate your Grade Point Average (GPA) based on individual course grades and credit hours.
